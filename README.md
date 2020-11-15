@@ -29,7 +29,7 @@ License
 ROGUE is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
-RogueSpace is proprietary software, parts of which will be rolled out into open-source over time.
+RogueSpace (the Apsis Online engine) is proprietary software, parts of which will be rolled out into open-source over time.
 
 Development Process
 -------------------
