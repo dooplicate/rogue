@@ -7,53 +7,52 @@ Rogue Core integration/staging tree
 
 http://apsis.online
 
-What is Rogue?
+A Cryptocurrency for Minimalists
 ----------------
 
-Rogue is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Rogue uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Rogue Core is the name of open source
-software which enables the use of this currency.
+ROGUE was built on the idea that simplicity is the key to adoption and that people prefer software that just works.
 
-For more information, as well as an immediately useable, binary version of
-the Rogue Core software, see [https://rogue.org](https://rogue.org).
+We needed a cryptocurrency to work with existing technologies in a way that was seamless.  
+Too many blockchains emphasize functions that only serve to enrich the developers (and to be fair, investors) 
+not make the software itself easier to use. We believe that it is for this reason that many projects languish. 
+Worse, the industries often loosely targeted simply aren't willing to adapt to such learning curves as the room 
+for error is slim when it comes to financial technologies. This project aims to simplify the blockchain.
+
+ROGUE ultimately uses peer-to-peer technology to operate independently of RogueSpace, the official cloud wallet. 
+Enabling users to independently mine, verify and initiate global transactions.
+
+For more information, as well as an immediately functional wallet, see [http://apsis.online](https://gamejolt.com/games/apsisonline/396672).
 
 License
 -------
 
-Rogue Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+ROGUE is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/rogue-project/rogue/tags) are created
-regularly to indicate new official, stable release versions of Rogue Core.
+The `master` branch is regularly built and tested as it must always remain compatible
+with the cloud wallet. [Tags](https://github.com/rogue-project/rogue/tags) are created
+regularly to indicate new official, stable release versions of ROGUE.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/rogue-dev)
-should be used to discuss complicated or controversial changes before working
+The RogueSpace forum should be used to discuss complicated or controversial changes before working
 on a patch set.
-
-Developer IRC can be found on Freenode at #rogue-dev.
 
 Testing
 -------
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
+This is a security-critical project where any mistake might cost people lots of money.  As such we'd like to 
+minimize the amount of minor or aesthetic fixes and only focus on core mechanics. 
 
 ### Automated Testing
 
-Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`. Further details on running
-and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
+ROGUE testing occurs in-house using proprietary tools. But developers are encouraged 
+to write [unit tests](src/test/README.md) for new code, and to submit new unit tests for old code. 
+Unit tests can be compiled and run (assuming they weren't disabled in configure) with: `make check`. 
+Further details on running and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
 
 There are also [regression and integration tests](/test), written
 in Python, that are run automatically on the build server.
@@ -63,19 +62,12 @@ The Travis CI system makes sure that every pull request is built for Windows, Li
 
 ### Manual Quality Assurance (QA) Testing
 
-Changes should be tested by somebody other than the developer who wrote the
+We acknowledge that changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
-not straightforward.
+not straightforward.  
 
 Translations
 ------------
 
-We only accept translation fixes that are submitted through [Rogue Core's Transifex page](https://www.transifex.com/projects/p/rogue/).
-Translations are converted to Rogue periodically.
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
+As a temporary solution, translation requests can be submitted via the [ROGUE Telegram](http://t.me/roguecurrency).
