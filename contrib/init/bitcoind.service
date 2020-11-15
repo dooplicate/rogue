@@ -1,0 +1,22 @@
+[Unit]
+Description=Rogue's distributed currency daemon
+After=network.target
+
+[Service]
+User=rogue
+Group=rogue
+
+Type=forking
+PIDFile=/var/lib/rogued/rogued.pid
+ExecStart=/usr/bin/rogued -daemon -pid=/var/lib/rogued/rogued.pid \
+-conf=/etc/rogue/rogue.conf -datadir=/var/lib/rogued -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

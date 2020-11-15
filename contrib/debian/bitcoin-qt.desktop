@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Rogue Core
+Comment=Connect to the Rogue P2P Network
+Comment[de]=Verbinde mit dem Rogue peer-to-peer Netzwerk
+Comment[fr]=Rogue, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Rogue, eşten eşe kriptografik sanal para birimi
+Exec=rogue-qt %u
+Terminal=false
+Type=Application
+Icon=rogue128
+MimeType=x-scheme-handler/rogue;
+Categories=Office;Finance;

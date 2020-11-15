@@ -1,0 +1,6 @@
+usr/local/bin/rogue-qt usr/bin
+share/pixmaps/rogue32.xpm usr/share/pixmaps
+share/pixmaps/rogue16.xpm usr/share/pixmaps
+share/pixmaps/rogue128.png usr/share/pixmaps
+debian/rogue-qt.desktop usr/share/applications
+debian/rogue-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,8 @@
+/usr/bin/rogue-cli		--	gen_context(system_u:object_r:rogue_exec_t,s0)
+/usr/sbin/rogued		--	gen_context(system_u:object_r:rogue_exec_t,s0)
+/usr/lib(64)?/rogue/rogued		--	gen_context(system_u:object_r:rogue_exec_t,s0)
+
+/etc/rogue(/.*)?		gen_context(system_u:object_r:rogue_conf_t,s0)
+/var/lib/rogue(/.*)?		gen_context(system_u:object_r:rogue_var_lib_t,s0)
+
+(/var)?/run/rogued(/.*)?   gen_context(system_u:object_r:rogue_var_run_t,s0)

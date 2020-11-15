@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[rogue.qt-translation-014x]
+file_filter = src/qt/locale/rogue_<lang>.ts
+source_file = src/qt/locale/rogue_en.ts
+source_lang = en

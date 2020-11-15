@@ -1,0 +1,11 @@
+[Protocol]
+exec=rogue-qt '%u'
+protocol=rogue
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
