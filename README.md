@@ -23,6 +23,12 @@ Enabling users to independently mine, verify and initiate global transactions.
 
 For more information, as well as an immediately functional wallet, see [http://apsis.online](https://gamejolt.com/games/apsisonline/396672).
 
+Technical Overview
+-------
+![alt text](https://miro.medium.com/max/700/1*tfbZmBp0YmQFyNQnC2wZFQ.png)
+
+ROGUE can be described as Litecoin stripped down to its core mechanics.  This means that even the standard QT wallet will be removed in favor of a purely text-user interface (TUI).  At which point additional features may be added using the C programming language. In the meantime, a cloud wallet exists and the coin works as a trading pair within an existing blockchain game. Which has been in first-party development for 5 years and operates entirely within the command-line.
+
 License
 -------
 
