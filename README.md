@@ -1,3 +1,5 @@
+![alt text](https://miro.medium.com/max/219/1*lVK-WtZS_w79ps3faIlj6g.png)
+
 Rogue Core integration/staging tree
 =====================================
 
