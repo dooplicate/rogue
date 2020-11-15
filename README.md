@@ -23,6 +23,8 @@ Enabling users to independently mine, verify and initiate global transactions.
 
 For more information, as well as an immediately functional wallet, see [http://apsis.online](https://gamejolt.com/games/apsisonline/396672).
 
+Note: Cloud wallet testing is currently only available to Linux users.
+
 Technical Overview
 -------
 ![alt text](https://miro.medium.com/max/700/1*tfbZmBp0YmQFyNQnC2wZFQ.png)
