@@ -5,7 +5,6 @@ Rogue Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/rogue-project/rogue.svg?branch=master)](https://travis-ci.org/rogue-project/rogue)
 
-http://apsis.online
 
 A Cryptocurrency for Minimalists
 ----------------
