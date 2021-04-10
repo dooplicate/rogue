@@ -21,7 +21,7 @@ for error is slim when it comes to financial technologies. This project aims to 
 ROGUE ultimately uses peer-to-peer technology to operate independently of RogueSpace, the official cloud wallet. 
 Enabling users to independently mine, verify and initiate global transactions.
 
-For more information, as well as an immediately functional wallet, see [http://apsis.online](https://gamejolt.com/games/apsisonline/396672).
+For more information, as well as an immediately functional wallet, visit RogueMicro.io(http://roguemicro.io).
 
 Note: Cloud wallet testing is currently only available to Linux users.
 
