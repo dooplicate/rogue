@@ -123,11 +123,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x5aaac381a70b77fcbc45906b9ed487432629e73527bc2192ecb1abd78bc539b3"));
         assert(genesis.hashMerkleRoot == uint256S("0x4901c35d0811b0e51bba687f746665ecfed9c5c3e861d73ffeea3c6862aa6bf1"));
 
-        // Note that of those with the service bits flag, most only support a subset of possible options
-        /*
-         *apsisonline.vineyard.haus
-         vSeeds.emplace_back("seed-a.rogue.loshan.co.uk", true);
-        */
+        vSeeds.emplace_back("seed.roguemicro.io", true);
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -230,6 +226,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
+        vSeeds.emplace_back("seed.roguemicro.io", true);
         /*
         vSeeds.emplace_back("testnet-seed.roguetools.com", true);
         vSeeds.emplace_back("seed-b.rogue.loshan.co.uk", true);
